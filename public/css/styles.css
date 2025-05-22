@@ -1,0 +1,67 @@
+@charset "UTF-8";/*!
+ * MyTheme CSS
+ * Version: 1.0.0
+ */
+.navtitle {
+    font-size: 26px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px;
+}
+
+.footer {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px;
+}
+
+.listlink {
+    color:rgba(255, 255, 255, 0.397);
+    letter-spacing: 1px;
+    font-size: 30px;    
+}
+.listlink:hover {
+    color: #fff;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+
+p {
+    font-family: "Spectral", serif;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: "Spectral", serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Spectral", serif;
+    font-size: 44px;
+}
+
+h3 {
+    font-family: "Spectral", serif;
+    font-size: 36px;
+}
+
+a {
+    font-family: "Spectral", serif;
+}
+
+li {
+    font-family: "Spectral", serif;
+    font-size: 22px;
+}

@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2025-05-20T12:32:49-04:00
-draft: true
+draft: false
 tags: ["general", "news"]
 type: "post"
 ---

@@ -3,6 +3,7 @@ title: "Resume"
 date: 2025-05-21T13:05:03-04:00
 draft: true
 type: "resume"
+layout: resume
 ---
 # Nicolas Querques
 ---

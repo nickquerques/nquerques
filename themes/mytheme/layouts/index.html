@@ -1,0 +1,52 @@
+{{ define "main" }}
+    <br><br>
+    <!--<div id="home-jumbotron" class="jumbotron text-center">
+    <h1 class="title">{{ .Site.Title }}</h1>-->
+
+    <div class ="container">
+        <h2>Hello! 	&#128516;</h2>
+        <br>
+        <p> Hi! My name is Nick, and I've worked in research, tech/IT, and agri-food for more than 10 years now. 
+        </p>
+        <p>
+        Currently, I am pursuing studies in data and computer sciences while I work full-time as a Service Desk Analyst at Frontline Managed Services.
+        </p> 
+        <p>
+        My research interests include fermentation, data science, and networking.
+        My personal interests include video games, film, nature, culture.
+        </p>
+        <p>
+        Follow along here to see my current projects and musings.
+        </p>
+        <br>
+        <hr>
+    </div>
+    <br>
+
+<!--    <div class="container">
+        <h2>My Projects</h2>
+        <br>
+        <p> Here are some of my current projects. 
+        </p>
+        <p>
+        I am currently working on a project to analyze the data from my home fermentation experiments.
+        </p>
+        <p>
+        I am also working on a project to analyze the data from my home network.
+        </p>
+    </div>
+    <br>
+-->
+    <div class="container">
+        <h2>Recent Posts</h2>
+        {{ range first 2 (where .Site.Pages.ByPublishDate.Reverse "Section" "posts") }}
+         <p>
+        <h3><a class="title listlink" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ partial "metadata.html" . }}
+        <!--<a class="summary listlink" href="{{ .RelPermalink }}">
+            <p>{{ .Summary }}</p>
+        </a>-->
+    </p>
+    <br>
+    {{ end }}
+{{ end }}

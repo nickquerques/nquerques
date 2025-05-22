@@ -1,0 +1,11 @@
+{{ define "main" }}
+<link rel="stylesheet" type="text/css" href="/css/resume.css">
+
+<br>
+<div class="container">
+<!--<h1>{{ .Title }}</h1>-->
+{{ partial "metadata.html" . }}
+<br><br>
+{{ .Content }}
+</div>
+{{ end }}

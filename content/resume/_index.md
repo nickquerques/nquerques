@@ -92,7 +92,7 @@ Cline, J. A., Carter, K., Gunter, A., Bakker, C., & Green, A. C. (2018). Respons
 
 -   Vintage computer, A/V, and gaming electronics equipment rebuild and repair.
     
--   Homelab / Home server enthusiast. Self-hosting personal website, game servers, web applications.
+-   Homelab / Home server enthusiast. Self-hosting personal website, game servers, web applications. Designed personal website / website theme with hugo and bootstrap.
 
 - Digital 2D and 3D art.
     
